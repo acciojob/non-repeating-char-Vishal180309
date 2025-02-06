@@ -1,1 +1,31 @@
-/*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+}
+
+#input-string {
+    width: 50%;
+    height: 30px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#find-button {
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#find-button:hover {
+    background-color: #3e8e41;
+}
+
+#result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
